@@ -505,10 +505,14 @@ def main():
             print("_______________________________________________________________________________________")
             print("Please wait!")
             master_list = main_readin()
+            print("\n Read in of all texts: \n")
+            print(master_list)
+            print("\n")
             #___________________________________________________________________________
             #pos tags
             #Taggen und Token
             #[[[a,b],[a,b]...]...]
+            print("Token and PoS Tags: \n")
             print((main_tag(master_list)))
             
         #2.3.1
